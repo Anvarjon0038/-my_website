@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: #EFEFEF;
+    font-family: sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+.wrapper{
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav > li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.nav > li > a{
+    text-decoration: none;
+    color: #333333;
+}
+.header{
+    background-color: #fff;
+}
+.header-top{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.logo{
+    color: #66C05D;
+    font-size: 36px;
+    font-weight: 700;
+}
+.header-info span{
+    font-size: 16px;
+}
+.header-info button{
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid #66C05D;
+    background-color: transparent;
+    padding: 10px 15px;
+}
